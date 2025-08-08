@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEXIRON - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Particles.js Container -->
+    <div id="particles-js"></div>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="loading-text">
+                <span class="loading-text-words">L</span>
+                <span class="loading-text-words">O</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">D</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">N</span>
+                <span class="loading-text-words">G</span>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">VEXIRON</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="parallax-bg" data-depth="0.2"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h5 class="greeting animate-on-scroll">Hi, my name is</h5>
+                    <h1 class="name animate-on-scroll animate-delay-1">VEXIRON</h1>
+                    <h2 class="subtitle animate-on-scroll animate-delay-2">I build <span class="highlight">digital experiences</span></h2>
+                    <p class="hero-description animate-on-scroll animate-delay-3">I'm a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.</p>
+                    
+                    <div class="hero-buttons animate-on-scroll animate-delay-4">
+                        <a href="#contact" class="btn btn-primary" data-cursor-hover>
+                            <span>Get In Touch</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-outline" data-cursor-hover>
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image animate-on-scroll animate-delay-5">
+                    <div class="image-wrapper">
+                        <div class="parallax-image" data-depth="0.1">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="floating-icons">
+                            <span class="icon-1"><i class="fab fa-html5"></i></span>
+                            <span class="icon-2"><i class="fab fa-css3-alt"></i></span>
+                            <span class="icon-3"><i class="fab fa-js"></i></span>
+                            <span class="icon-4"><i class="fab fa-react"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-down" data-aos="fade-up" data-aos-delay="900">
+                <a href="#about" class="scroll-link" data-cursor-hover>
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-wrapper">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="floating-shapes">
+                            <span class="shape-1"></span>
+                            <span class="shape-2"></span>
+                            <span class="shape-3"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm <span class="highlight">VEXIRON</span></h3>
+                    <p class="intro">A passionate Full-Stack Developer with a keen eye for design and a love for creating seamless digital experiences.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                    </div>
+
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>qwerty@example.com</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (123) 456-7890</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary" data-cursor-hover>
+                        <span>Contact Me</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="project-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with user authentication, product management, and payment processing.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1580191954499-1ad8a1f4f4a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Weather App">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>API</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather information with 5-day forecast using OpenWeather API and geolocation.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>This very website! Built with modern web technologies and best practices for performance and accessibility.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                            <a href="#" class="project-btn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>CLI</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 VEXIRON. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Typed.js if element exists
+            const typedElement = document.querySelector('.typed-text');
+            if (typedElement && typeof Typed !== 'undefined') {
+                new Typed('.typed-text', {
+                    strings: ['Web Developer', 'Designer', 'Problem Solver'],
+                    typeSpeed: 50,
+                    backSpeed: 30,
+                    loop: true
+                });
+            }
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
